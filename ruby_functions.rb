@@ -92,3 +92,7 @@ end
       "Error"
     end
   end
+
+  def volume_of_cube(length)
+    length ** 3
+  end
