@@ -100,3 +100,7 @@ end
   def volume_of_sphere(radius)
     3.14 * (radius.to_i ** 3) * (4/3)
   end
+
+  def fahrenheit_to_celsius(temperature)
+    ((temperature - 32) / 1.8).round(2)
+  end
